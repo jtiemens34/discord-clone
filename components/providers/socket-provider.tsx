@@ -51,5 +51,5 @@ export const SocketProvider = ({ children }: { children: React.ReactNode }) => {
         <SocketContext.Provider value={{ socket, isConnected }}>
             {children}
         </SocketContext.Provider>
-    )
+    );
 }
