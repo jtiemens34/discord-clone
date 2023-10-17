@@ -58,6 +58,7 @@ export async function GET(
                     createdAt: "desc"
                 }
             });
+        }
 
             let nextCursor = null;
 
@@ -67,7 +68,6 @@ export async function GET(
                 items: messages,
                 nextCursor
             });
-        }
     } catch (error) {
         console.log("[MESSAGES_GET]", error);
         return new NextResponse("Internal Error", { status: 500 });
