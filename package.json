@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.25.1",
@@ -39,6 +40,7 @@
     "lucide-react": "^0.284.0",
     "next": "^13.5.5",
     "next-themes": "^0.2.1",
+    "patch-package": "^8.0.0",
     "query-string": "^8.1.0",
     "react": "^18",
     "react-dom": "^18",
