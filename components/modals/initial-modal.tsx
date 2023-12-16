@@ -112,7 +112,8 @@ export const InitialModal = () => {
                                             Server name
                                         </FormLabel>
                                         <FormControl>
-                                            <Input 
+                                            <Input
+                                                data-test-id="server-name" 
                                                 disabled={isLoading}
                                                 className="bg-zinc-300/50 border-0 focus-visible:ring-0 text-black focus-visible:ring-offset-0"
                                                 placeholder="Enter server name"
@@ -125,7 +126,11 @@ export const InitialModal = () => {
                             />
                         </div>
                         <DialogFooter className="bg-gray-100 px-6 py-4">
-                            <Button variant="primary" disabled={isLoading}>
+                            <Button 
+                              data-test-id="create-button"
+                              variant="primary"
+                              disabled={isLoading}
+                            >
                                 Create
                             </Button>
                         </DialogFooter>

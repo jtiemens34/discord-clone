@@ -123,7 +123,9 @@ export const ChatItem = ({
     const isImage = !isPDF && fileUrl;
 
     return (
-        <div className="relative group flex item-scenter hover:bg-black/5 p-4 trasition w-full">
+        <div className="relative group flex item-scenter hover:bg-black/5 p-4 trasition w-full"
+          data-cy="message"
+        >
             <div className="group flex gap-x-2 items-start w-full">
                 <div onClick={onMemberClick} className="cursor-pointer hover:drop-shadow-md transition">
                     <UserAvatar src={member.profile.imageUrl} />
@@ -174,7 +176,9 @@ export const ChatItem = ({
                         <p className={cn(
                             "text-sm text-zinc-600 dark:text-zinc-300",
                             deleted && "italic text-zinc-500 dark:text-zinc-400 text-xs mt-1"
-                        )}>
+                        )}
+                          data-cy="message-content"
+                        >
                             {content}
                             {isUpdated && !deleted && (
                                 <span className="text-[10px] mx-2 text-zinc-500 dark:text-zinc-400">
@@ -197,6 +201,7 @@ export const ChatItem = ({
                                             <FormControl>
                                                 <div className="relative w-full">
                                                     <Input
+                                                        data-cy="editing-message"
                                                         disabled={isLoading}
                                                         className="p-2 bg-zinc-200/90 dark:bg-zinc-700/75 border-none border-0 focus-visible:ring-0 focus-visible:ring-offset-0 text-zinc-600 dark:text-zinc-200"
                                                         placeholder="Edited message"
@@ -207,7 +212,8 @@ export const ChatItem = ({
                                         </FormItem>
                                     )}
                                 />
-                                <Button size="sm" variant="primary" disabled={isLoading}>
+                                <Button size="sm" variant="primary" disabled={isLoading}
+                                  data-cy="save-button">
                                     Save
                                 </Button>
                             </form>
@@ -223,6 +229,7 @@ export const ChatItem = ({
                     {canEditMessage && (
                         <ActionTooltip label="Edit">
                             <Edit
+                                data-cy="edit-button"
                                 onClick={() => setIsEditing(true)} 
                                 className="cursor-pointer ml-auto w-4 h-4 text-zinc-500 hover:text-zinc-600 dark:hover:text-zinc-300 transition"
                             />
@@ -230,6 +237,7 @@ export const ChatItem = ({
                     )}
                     <ActionTooltip label="Delete">
                             <Trash
+                                data-cy="delete-button"
                                 onClick = {() => onOpen("deleteMessage", {
                                   apiUrl: `${socketUrl}/${id}`,
                                   query: socketQuery

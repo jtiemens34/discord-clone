@@ -62,6 +62,7 @@ export const DeleteMessageModal = () => {
                             Cancel
                         </Button>
                         <Button
+                            data-test-id="confirm-delete-message-modal"
                             disabled={isLoading}
                             onClick={onClick}
                             variant="primary"
