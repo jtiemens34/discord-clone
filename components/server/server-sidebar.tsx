@@ -144,7 +144,7 @@ const ServerSidebar = async ({
                             role={role}
                             label="Voice Channels"
                         />
-                        <div className="space-y-[2px]">
+                        <div className="space-y-[2px]" data-test-id="audio-channels-content">
                             {audioChannels.map((channel) => (
                                 <ServerChannel 
                                     key={channel.id}
@@ -164,7 +164,7 @@ const ServerSidebar = async ({
                             role={role}
                             label="Video Channels"
                         />
-                        <div className="space-y-[2px]">
+                        <div className="space-y-[2px]" data-test-id="video-channels-content">
                             {videoChannels.map((channel) => (
                                 <ServerChannel 
                                     key={channel.id}
