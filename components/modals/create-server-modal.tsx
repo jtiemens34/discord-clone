@@ -84,7 +84,7 @@ export const CreateServerModal = () => {
                 <Form {...form}>
                     <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
                         <div className="space-y-8 px-6">
-                            <div className="flex items-center justify-center text-center">
+                            <div className="flex items-center justify-center text-center"  data-test-id="create-server-image">
                                 <FormField 
                                     control={form.control}
                                     name="imageUrl"
@@ -116,6 +116,7 @@ export const CreateServerModal = () => {
                                                 disabled={isLoading}
                                                 className="bg-zinc-300/50 border-0 focus-visible:ring-0 text-black focus-visible:ring-offset-0"
                                                 placeholder="Enter server name"
+                                                data-test-id="create-server-name"
                                                 {...field}
                                             />
                                         </FormControl>
@@ -125,7 +126,7 @@ export const CreateServerModal = () => {
                             />
                         </div>
                         <DialogFooter className="bg-gray-100 px-6 py-4">
-                            <Button variant="primary" disabled={isLoading}>
+                            <Button variant="primary" disabled={isLoading} data-test-id="create-server-confirm">
                                 Create
                             </Button>
                         </DialogFooter>

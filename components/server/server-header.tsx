@@ -48,6 +48,7 @@ const ServerHeader = ({
                 )}
                 {isAdmin && (
                     <DropdownMenuItem
+                        data-test-id="server-settings"
                         onClick={() => onOpen("editServer", { server })}
                         className="px-3 py-2 text-sm cursor-pointer"
                     >
@@ -78,6 +79,7 @@ const ServerHeader = ({
                 )}
                 {isAdmin && (
                     <DropdownMenuItem
+                        data-test-id="delete-server"
                         onClick={() => onOpen("deleteServer", { server })}
                         className="text-rose-500 px-3 py-2 text-sm cursor-pointer"
                     >

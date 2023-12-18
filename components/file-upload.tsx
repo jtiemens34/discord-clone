@@ -25,6 +25,7 @@ export const FileUpload = ({
             <div className="relative h-20 w-20">
                 <Image 
                     fill
+                    data-test-id="uploaded-server-image"
                     src={value}
                     alt="Upload"
                     className="rounded-full"
