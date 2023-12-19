@@ -25,6 +25,8 @@ describe("Message testing", () => {
     message = "Test message #" + (randomNumber - 1);
     cy.get("[data-cy='message']:first-child [data-cy='editing-message']").clear().type(message + "{enter}");
 
+    cy.visit("http://localhost:3000");
+
     // Verify the message is edited
     cy.get("[data-cy='message']:first-child [data-cy='message-content']").should("have.text", message + "(edited)");
   });
@@ -35,6 +37,7 @@ describe("Message testing", () => {
     // Confirm on delete message modal
     cy.get("[data-test-id='confirm-delete-message-modal']").click();
 
+    cy.visit("http://localhost:3000");
     // Verify the message is deleted
     cy.get("[data-cy='message']:first-child [data-cy='message-content']").should("have.text", "This message has been deleted.");
   });
