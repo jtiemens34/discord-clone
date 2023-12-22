@@ -61,6 +61,7 @@ export const DeleteServerModal = () => {
                             Cancel
                         </Button>
                         <Button
+                            data-test-id="delete-server-confirm"
                             disabled={isLoading}
                             onClick={onClick}
                             variant="primary"

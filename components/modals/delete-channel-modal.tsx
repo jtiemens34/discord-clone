@@ -71,6 +71,7 @@ export const DeleteChannelModal = () => {
                             disabled={isLoading}
                             onClick={onClick}
                             variant="primary"
+                            data-test-id="delete-channel-confirm"
                         >
                             Confirm
                         </Button>

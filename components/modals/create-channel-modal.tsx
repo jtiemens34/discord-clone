@@ -117,7 +117,8 @@ export const CreateChannelModal = () => {
                                             Channel name
                                         </FormLabel>
                                         <FormControl>
-                                            <Input 
+                                            <Input
+                                                data-test-id="create-channel-name" 
                                                 disabled={isLoading}
                                                 className="bg-zinc-300/50 border-0 focus-visible:ring-0 text-black focus-visible:ring-offset-0"
                                                 placeholder="Enter channel name"
@@ -164,7 +165,7 @@ export const CreateChannelModal = () => {
                             />
                         </div>
                         <DialogFooter className="bg-gray-100 px-6 py-4">
-                            <Button variant="primary" disabled={isLoading}>
+                            <Button variant="primary" disabled={isLoading} data-test-id="create-channel-confirm">
                                 Create
                             </Button>
                         </DialogFooter>

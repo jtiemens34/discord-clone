@@ -29,7 +29,7 @@ export const ChatHeader = ({
                     className="h-8 w-8 md:h-8 md:w-8 mr-2"
                 />
             )}
-            <p className="font-semibold text-md text-black dark:text-white">
+            <p className="font-semibold text-md text-black dark:text-white" data-test-id="current-channel-name">
                 {name}
             </p>
             <div className="ml-auto flex items-center">

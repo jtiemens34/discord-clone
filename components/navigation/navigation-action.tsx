@@ -15,6 +15,7 @@ export const NavigationAction = () => {
                 label="Add a server"
             >
                 <button
+                    data-test-id="create-server-button"
                     onClick={() => onOpen("createServer")}
                     className="group flex items-center"
                 >

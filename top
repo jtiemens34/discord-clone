@@ -1,0 +1,259 @@
+[33mcommit 4a24e29084bd72102423ec086cb0d70bae1c5979[m[33m ([m[1;36mHEAD -> [m[1;32mworking[m[33m, [m[1;31morigin/working[m[33m)[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Dec 19 16:27:12 2023 -0800
+
+    Panopto Video Recording added.
+
+[33mcommit dba5b8827efa63012c0b5ce5ed91f3fffcb30903[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Dec 19 15:49:58 2023 -0800
+
+    Message Testing Documentation added.
+
+[33mcommit 0367d6aacbf5b0c64f2488cafa99860204f03e3b[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Dec 19 15:35:42 2023 -0800
+
+    Channel Testing documentation added.
+
+[33mcommit abd4dcb408975d00c4ff6bf3c60555d75a039774[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Dec 19 15:26:41 2023 -0800
+
+    Testing Documentation main and Servers Testing documentation finished.
+
+[33mcommit 4a2c0f7656ef0f18ce705278fc670db228d275c4[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Dec 19 15:09:07 2023 -0800
+
+    Refresh website after edit and delete in messages testing.
+
+[33mcommit cd10cb2d5cb4940ed8aa2a77c93765b1f8170eb6[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Dec 19 14:57:48 2023 -0800
+
+    User Setup/Running Maintenance Guide added.
+
+[33mcommit dc494283faa5950a5315b8a516a2e5d80b42b618[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Dec 19 14:52:31 2023 -0800
+
+    User perspective application use guide added.
+
+[33mcommit 62882b38e36b7005bcfed220ec1c3217d243cd66[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Dec 19 14:47:04 2023 -0800
+
+    Design diagram (Wireframe) added.
+
+[33mcommit a26bb401d2165368b859201cce81960d69ae99bd[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Dec 19 13:31:56 2023 -0800
+
+    Class Diagram added.
+
+[33mcommit 9df26dfbd5e66dc6fd43f362a643b7b18d8a683c[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Dec 19 13:28:34 2023 -0800
+
+    Polymorphism example.
+
+[33mcommit 15424e4f9fe389bcd39c3c0a27a8f996ce5810c2[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 16:55:59 2023 -0800
+
+    Generate Reports documented.
+
+[33mcommit 986e3eeb81ba23f574a9a9ae1e3a3fe73e43405e[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 16:54:24 2023 -0800
+
+    Report Generation added.
+
+[33mcommit e044c618b2de4263971354d18a4d491bd8bfc25f[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 16:00:42 2023 -0800
+
+    Templating for future sections added.
+
+[33mcommit 521dfae6d37a0dd8c990f559c091b21551abefd6[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 15:59:48 2023 -0800
+
+    GitLab Repo location
+
+[33mcommit fe6c40aa1488b573e9e08ed4a3fc850c0aa6a6a3[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 15:59:28 2023 -0800
+
+    Web App Host Location
+
+[33mcommit 784345e05e797160586aee887dbd267137210fc6[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 15:59:12 2023 -0800
+
+    User-friendly functional GUI
+
+[33mcommit f0a740ec333532d94e90ac8b167218596b609ebd[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 15:58:48 2023 -0800
+
+    Scalable design elements
+
+[33mcommit 44f6bbcd2d766f1634f7cf4d5719bc1364f8d891[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 15:58:24 2023 -0800
+
+    Security feature example
+
+[33mcommit 7e4405ab3bbdf17242cb47e467ca57984d2bd0a4[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 15:58:06 2023 -0800
+
+    Validation functionality.
+
+[33mcommit 650a9db8b177efa9b7f2dabd52ca6504dbb6cc02[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 15:57:49 2023 -0800
+
+    Database component example.
+
+[33mcommit c72d682f1a5cc5288ffdc8931dc141be79995247[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 15:57:16 2023 -0800
+
+    Search functionality example.
+
+[33mcommit 8e02a9fbc00ae4ae25e9bd4ffc52cac67dc2a5ad[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 15:56:49 2023 -0800
+
+    Encapsulation example.
+
+[33mcommit 2d86fc877b0ce07e838c9863a572a196cceea571[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 15:54:34 2023 -0800
+
+    Task 3 document created, inheritance example added.
+
+[33mcommit e55d4374aab95f28203394d87a78479f9e9c409a[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 15:46:51 2023 -0800
+
+    Task 1 + 2 documents added.
+
+[33mcommit 7d3acf429e2b6efde639c0b50e023cd837977bda[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 15:11:18 2023 -0800
+
+    Servers testing finished.
+
+[33mcommit d1ec83133f1add4a4a8a005ed79f9ebaf8955d9d[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Dec 18 10:57:26 2023 -0800
+
+    Channel testing finished.
+
+[33mcommit 76d05abbee7d4b540506de637aa4a255baf1c1d8[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Sun Dec 17 10:14:16 2023 -0800
+
+    Testing specs split, channel adding and deletion tests added.
+
+[33mcommit 82c6925658b8eaab06e7479eb498db88182d7e24[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Sat Dec 16 16:08:12 2023 -0800
+
+    Text Channel Creation + Deletion Integration Tests.
+
+[33mcommit ed06c76b772611a4e07e84ca15e57e3fe92d5d56[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Sat Dec 16 15:15:10 2023 -0800
+
+    Cypress setup + Message Integration Testing.
+
+[33mcommit 64b5b4b43a75bce4e8af0761a37e7d4317796baa[m[33m ([m[1;32mmain[m[33m)[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Thu Dec 7 17:12:09 2023 -0800
+
+    Clone to GitLab
+
+[33mcommit ec113fffe70b801ec9b588cc42a02d8d6c680502[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Thu Dec 7 16:59:30 2023 -0800
+
+    Commit to GitLab
+
+[33mcommit 024b2ce578de8b322c3043e93f28b4994880eaf5[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Thu Dec 7 16:58:05 2023 -0800
+
+    Clone to GitLab
+
+[33mcommit 9b157e4571d72e3d88410ec1ae838da309f55309[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Oct 17 15:44:46 2023 -0700
+
+    Update Middleware to allow Health API route.
+
+[33mcommit e9a7292d777fc9b72eb92be339fbc03bbb9d757d[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Oct 17 15:39:44 2023 -0700
+
+    Added Health API route for Railway.
+
+[33mcommit 87f24e4d947f3ee6d72ffb5a767796f55b77eab0[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Oct 17 15:31:26 2023 -0700
+
+    Patch-Package fix for Radix.
+
+[33mcommit d1df888636c303ef55c54ce01f6bf02b9ae6d05e[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Oct 17 15:04:53 2023 -0700
+
+    UserButton appearance prop fixed.
+
+[33mcommit 6e8fc0e6ecaafd6ff61e6d49313cbe01e45b3e79[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Oct 17 14:42:05 2023 -0700
+
+    Video and Audio Calls finished.
+
+[33mcommit 229ef28ac5e25a8f1ee3a8762a819376dc8183d2[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Oct 17 13:22:37 2023 -0700
+
+    Direct Messages finished.
+
+[33mcommit 44d3d0e489b5450d27d59832a190ee8120a173d0[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Oct 17 13:04:53 2023 -0700
+
+    Chat Scroll Hook finished.
+
+[33mcommit 664e0f31bb8018305eaadcdbc0973c32dbb3863b[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Oct 17 12:45:43 2023 -0700
+
+    Chat Socket Hook finished.
+
+[33mcommit 44b4c44dbc506f208516a931e9ab0002d967be32[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Oct 17 10:43:44 2023 -0700
+
+    Delete Message finished.
+
+[33mcommit 6b040c1c18168c4604fa9518dfb9f2b3d155da20[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Tue Oct 17 10:18:11 2023 -0700
+
+    Chat Item Component finished.
+
+[33mcommit 4f99757544d7989dbd7607cddb8f50dfa9fa9035[m
+Author: elegantlytragic <zomg.its.jesse@hotmail.com>
+Date:   Mon Oct 16 21:46:38 2023 -0700
+
+    Chat Message component finished.
+
+[33mcommit 35257c7244194e3a9b1697d47844ddc8c

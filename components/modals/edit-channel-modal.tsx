@@ -105,7 +105,7 @@ export const EditChannelModal = () => {
                 </DialogHeader>
                 <Form {...form}>
                     <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-                        <div className="space-y-8 px-6">
+                        <div className="space-y-8 px-6" data-test-id="edit-channel-form">
                             <FormField
                                 control={form.control}
                                 name="name"
@@ -117,7 +117,8 @@ export const EditChannelModal = () => {
                                             Channel name
                                         </FormLabel>
                                         <FormControl>
-                                            <Input 
+                                            <Input
+                                                data-test-id="edit-channel-name" 
                                                 disabled={isLoading}
                                                 className="bg-zinc-300/50 border-0 focus-visible:ring-0 text-black focus-visible:ring-offset-0"
                                                 placeholder="Enter channel name"
@@ -135,6 +136,7 @@ export const EditChannelModal = () => {
                                     <FormItem>
                                         <FormLabel>Channel Type</FormLabel>
                                         <Select
+                                            data-test-id="edit-channel-type"
                                             disabled={isLoading}
                                             onValueChange={field.onChange}
                                             defaultValue={field.value}
@@ -149,6 +151,7 @@ export const EditChannelModal = () => {
                                             <SelectContent>
                                                 {Object.values(ChannelType).map((type) => (
                                                     <SelectItem
+                                                        data-cy={type}
                                                         key={type}
                                                         value={type}
                                                         className="capitalize"
@@ -164,7 +167,7 @@ export const EditChannelModal = () => {
                             />
                         </div>
                         <DialogFooter className="bg-gray-100 px-6 py-4">
-                            <Button variant="primary" disabled={isLoading}>
+                            <Button variant="primary" disabled={isLoading} data-test-id="edit-channel-confirm">
                                 Save
                             </Button>
                         </DialogFooter>

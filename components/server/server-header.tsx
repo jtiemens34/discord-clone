@@ -5,6 +5,7 @@ import { MemberRole } from "@prisma/client";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "../ui/dropdown-menu";
 import { ChevronDown, LogOut, PlusCircle, Settings, Trash, UserPlus, Users } from "lucide-react";
 import { useModal } from "@/hooks/use-modal-store";
+import { redirect } from "next/navigation";
 
 interface ServerHeaderProps {
     server: ServerWithMembersWithProfiles;
@@ -27,6 +28,7 @@ const ServerHeader = ({
                 asChild
             >
                 <button
+                    data-test-id="server-name"
                     className="w-full text-md font-semibold px-3 flex items-center h-12 border-neutral-200 dark:border-neutral-800 border-b-2 hover:bg-zinc-700/10 dark:hover:bg-zinc-700/50 transition"
                 >
                     {server.name}
@@ -47,6 +49,7 @@ const ServerHeader = ({
                 )}
                 {isAdmin && (
                     <DropdownMenuItem
+                        data-test-id="server-settings"
                         onClick={() => onOpen("editServer", { server })}
                         className="px-3 py-2 text-sm cursor-pointer"
                     >
@@ -77,6 +80,7 @@ const ServerHeader = ({
                 )}
                 {isAdmin && (
                     <DropdownMenuItem
+                        data-test-id="delete-server"
                         onClick={() => onOpen("deleteServer", { server })}
                         className="text-rose-500 px-3 py-2 text-sm cursor-pointer"
                     >
