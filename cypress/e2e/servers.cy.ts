@@ -1,7 +1,7 @@
 describe("Channel testing", () => {
   before(() => {
     cy.intercept({ resourceType: /xhr|fetch/ }, { log: false });
-    cy.initializeAuth();
+    //cy.initializeAuth();
     cy.visit("http://localhost:3000", { failOnStatusCode: false });
   });
   var randomNumber = Math.floor(Math.random() * 100);

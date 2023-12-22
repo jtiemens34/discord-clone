@@ -1,7 +1,7 @@
 describe("Message testing", () => {
   before(() => {
     cy.intercept({ resourceType: /xhr|fetch/ }, { log: false });
-    cy.initializeAuth();
+    //cy.initializeAuth();
     cy.visit("http://localhost:3000", { failOnStatusCode: false });
   });
   // Generate a random number for message content
