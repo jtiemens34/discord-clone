@@ -1,5 +1,6 @@
 # Discord Clone
 <img src="https://raw.githubusercontent.com/jtiemens34/discord-clone/main/readme_images/screenshot.png" alt="Screenshot of a text channel" width="500" />
+
 Full stack recreation of [Discord](https://discord.com/) to explore using the following tech stack:
 - Next.js 13
   - App routing and custom API definition and calling
